@@ -1,4 +1,4 @@
-## Jobstar - An advanced and customed jobs search tool
+## Jobstar - An advanced and customed job search app
 
 ### Installation
 
