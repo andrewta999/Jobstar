@@ -1,8 +1,8 @@
 ## Jobstar - An advanced and customed job search app
 
-### Installation
+### About
 
-### Documentation
+### Installation
 
 ### Contributing
 
