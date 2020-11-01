@@ -1,2 +1,5 @@
 node_modules
 Frontend
+
+k8s-deploy.yaml
+skaffold.yaml 
