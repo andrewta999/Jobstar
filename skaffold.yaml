@@ -1,0 +1,18 @@
+apiVersion: skaffold/v2beta9
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ./k8s-deploy.yaml
+build:
+  local:
+    push: false
+  artifacts:
+    - image: andrewta999/jobstar
+      context: .
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "./**/*.ts"
+            dest: .
