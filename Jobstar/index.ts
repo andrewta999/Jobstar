@@ -1,13 +1,6 @@
-import express from 'express'
 import mongoose from 'mongoose'
-import { json } from 'body-parser'
 
-const app = express()
-app.use(json())
-
-app.get('/api', (req, res) => {
-    res.send('Hello there')
-})
+import {app} from './app'
 
 const start = async () => {
     try {
