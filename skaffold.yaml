@@ -5,6 +5,7 @@ deploy:
     manifests:
       - ./k8s-deploy.yaml
       - ./k8s-ingress.yaml
+      - ./k8s-mongodb.yaml
 build:
   local:
     push: false
