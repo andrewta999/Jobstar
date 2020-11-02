@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package.json . 
 
 # run npm install
-RUN npm install 
+RUN npm install --only=prod
 
 # copy Jobstar app code
 COPY . . 
