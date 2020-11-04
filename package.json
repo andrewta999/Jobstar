@@ -1,10 +1,10 @@
 {
-  "name": "Jobstar",
+  "name": "jobstar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --poll Jobstar/index.ts",
+    "start": "ts-node-dev --poll jobstar/index.ts",
     "test": "jest"
   },
   "keywords": [],
